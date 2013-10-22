@@ -21,4 +21,7 @@ local.properties
 
 # IntelliJ Idea project files
 *.iml
-/.idea
+.idea/
+
+# Cordova files
+.cordova/
