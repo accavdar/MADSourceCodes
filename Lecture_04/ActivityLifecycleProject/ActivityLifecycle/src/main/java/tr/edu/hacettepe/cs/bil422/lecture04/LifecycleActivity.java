@@ -8,6 +8,11 @@ import android.widget.Toast;
 
 import java.util.Random;
 
+/**
+ * User: accavdar
+ * Date: 04/11/13
+ */
+
 public abstract class LifecycleActivity extends Activity {
 
     private final String className;

@@ -8,6 +8,11 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.Chronometer;
 
+/**
+ * User: accavdar
+ * Date: 04/11/13
+ */
+
 public class Activity1 extends LifecycleActivity {
 
     private Button finish;

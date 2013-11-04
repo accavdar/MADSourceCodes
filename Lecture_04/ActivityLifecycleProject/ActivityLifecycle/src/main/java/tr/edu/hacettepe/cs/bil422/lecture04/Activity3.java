@@ -3,7 +3,10 @@ package tr.edu.hacettepe.cs.bil422.lecture04;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import java.util.Date;
+/**
+ * User: accavdar
+ * Date: 04/11/13
+ */
 
 public class Activity3 extends LifecycleActivity {
 

@@ -6,6 +6,11 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+/**
+ * User: accavdar
+ * Date: 04/11/13
+ */
+
 public class Activity2 extends LifecycleActivity {
 
     private Button activity3;
