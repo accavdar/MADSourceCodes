@@ -10,3 +10,10 @@ MAD_Source_Codes
 ### Lecture-2
 
 * [GreetingApp](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_02)
+
+### Lecture-4
+
+* [ActivityLifecycle](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_04/ActivityLifecycleProject)
+
+ 
+
