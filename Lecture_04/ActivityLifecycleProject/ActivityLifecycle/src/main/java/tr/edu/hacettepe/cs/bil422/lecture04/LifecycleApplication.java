@@ -10,6 +10,7 @@ import android.content.Context;
  */
 
 public class LifecycleApplication extends Application {
+
     private NotificationManager notificationManager;
 
     @Override

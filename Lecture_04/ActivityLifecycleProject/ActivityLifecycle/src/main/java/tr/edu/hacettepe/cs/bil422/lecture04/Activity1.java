@@ -16,8 +16,10 @@ import android.widget.Chronometer;
 public class Activity1 extends LifecycleActivity {
 
     private Button finish;
+
     private Button activity2;
-    private Chronometer chrono;
+
+    private Chronometer chronometer;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,19 +38,19 @@ public class Activity1 extends LifecycleActivity {
                 startActivity(new Intent(Activity1.this, Activity2.class));
             }
         });
-        chrono = (Chronometer) findViewById(R.id.chronometer);
+        chronometer = (Chronometer) findViewById(R.id.chronometer);
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        chrono.setBase(SystemClock.elapsedRealtime());
-        chrono.start();
+        chronometer.setBase(SystemClock.elapsedRealtime());
+        chronometer.start();
     }
 
     @Override
     protected void onPause() {
-        chrono.stop();
+        chronometer.stop();
         super.onPause();
     }
 }

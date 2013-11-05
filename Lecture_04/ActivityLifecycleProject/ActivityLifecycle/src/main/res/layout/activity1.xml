@@ -6,7 +6,7 @@
 	<TextView android:id="@+id/blurb" android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:layout_marginTop="10dp"
 		android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge"
-		android:text="Main - demonstrate lifecycle methods" />
+		android:text="Activity1 - Demonstrate Lifecycle Methods" />
 
 	<Button android:id="@+id/finishButton" android:layout_width="wrap_content"
 		android:layout_height="wrap_content" android:layout_marginTop="10dp"
@@ -20,7 +20,5 @@
 		android:layout_width="fill_parent" android:layout_height="wrap_content"
 		android:layout_marginTop="10dp" android:gravity="center"
 		android:textAppearance="?android:attr/textAppearanceLarge" />
-
-	
 
 </LinearLayout>
