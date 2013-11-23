@@ -15,5 +15,15 @@ MAD_Source_Codes
 
 * [ActivityLifecycle](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_04/ActivityLifecycleProject)
 
+### Lecture-5
+
+* [FrameLayout](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/FrameLayoutProject)
+* [LinearLayout](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/LinearLayoutProject) 
+* [RelativeLayout](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/RelativeLayoutProject) 
+* [TableLayout](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/TableLayoutProject) 
+* [UIComposition](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/UICompositionProject) 
+* [MoviesApp](https://github.com/accavdar/MAD_Source_Codes/tree/master/Lecture_05/MoviesAppProject) 
+
+
  
 
