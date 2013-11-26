@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="MoviesAppTheme" parent="@android:style/Theme.Black">
+        <item name="android:listViewStyle">@style/MoviesAppListView</item>
+        <item name="android:windowBackground">@drawable/film_bg</item>
+    </style>
+
+    <style name="MoviesAppListView" parent="@android:Widget.ListView">
+        <item name="android:background">@color/list_background</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fastScrollEnabled">true</item>
+        <item name="android:footerDividersEnabled">false</item>
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="5dp"/>
+
+    <CheckedTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/thumbnail"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+        android:gravity="center_vertical"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/name"
+        android:layout_alignLeft="@id/name"
+        android:text="Year"
+        android:layout_marginBottom="4dp" />
+
+</RelativeLayout>
