@@ -5,5 +5,4 @@
         android:layout_height="match_parent"
         android:scaleType="fitXY"
         android:src="@drawable/ic_launcher" />
-
 </merge>

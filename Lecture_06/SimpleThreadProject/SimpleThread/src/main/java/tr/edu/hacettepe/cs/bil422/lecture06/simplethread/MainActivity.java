@@ -28,12 +28,6 @@ public class MainActivity extends Activity {
                 synchronized (image) {
                     bitmap = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher);
                     image.notify();
-                    image.post(new Runnable() {
-                        @Override
-                        public void run() {
-
-                        }
-                    });
                 }
             }
         }).start();
